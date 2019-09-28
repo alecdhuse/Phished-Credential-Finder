@@ -95,7 +95,7 @@ def get_new_phish_urls(data_sources):
                                 break
 
                     elif data_source['data_type'] == "text":
-                        reported_urls.append([line_number, line])
+                        reported_urls.append(line)
 
                     line_number += 1
 
