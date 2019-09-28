@@ -1,0 +1,17 @@
+{
+  "credential_file_names": [
+    "data.txt",
+    "log.txt",
+    "logs.txt",
+    "M1.txt",
+    "newfile.txt",
+    "office.txt",
+    "passwords.txt",
+    "rezlt.txt",
+    "T1.txt",
+    "vu.txt"
+  ],
+  "data_sources": [
+
+  ]
+}
