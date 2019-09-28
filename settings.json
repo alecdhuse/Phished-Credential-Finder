@@ -12,6 +12,12 @@
     "vu.txt"
   ],
   "data_sources": [
-
+    {
+        "source": "openphish",
+        "data_type": "text",
+        "url": "https://openphish.com/feed.txt",
+        "headers": {"Range": "bytes=0-80000"},
+        "parameters": {}
+    }
   ]
 }
