@@ -19,5 +19,11 @@
         "headers": {"Range": "bytes=0-80000"},
         "parameters": {}
     }
+  ],
+  "search_data": [
+    {
+      "string_match": ["@domain.com"],
+      "cider_subnets": ["10.0.0.0/24"]
+    }
   ]
 }
