@@ -1,6 +1,7 @@
 {
   "credential_file_names": [
     "data.txt",
+    "emails_and_pass.txt",
     "log.txt",
     "logs.txt",
     "M1.txt",
