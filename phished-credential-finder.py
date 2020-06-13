@@ -20,7 +20,7 @@ def find_cred_files(base_url, dump_file_names):
     possible_cred_files = []
 
     for dump_file in dump_file_names:
-        url = base_url + dump_file
+        url = "http://" + base_url + dump_file
 
         try:
             head_response = requests.head(url, headers=headers, timeout=0.5)

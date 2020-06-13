@@ -14,6 +14,20 @@
   ],
   "data_sources": [
     {
+        "source": "littlebonsai",
+        "data_type": "json",
+        "url": "https://littlebonsai.co/api/v0.10/get_reported_urls.php",
+        "headers": {"Authorization": "Bearer c1ede5-5c1145-dea009-f00d55"},
+        "parameters": {"tag": "phishing"}
+    },
+    {
+        "source": "phishtank",
+        "data_type": "csv",
+        "url": "http://data.phishtank.com/data/1dcdc3fb713c6f89ccc8dd2806e3766783f69f007d4aad5c3d6f18de587b0c86/online-valid.csv",
+        "headers": {"Range": "bytes=0-80000"},
+        "parameters": {}
+    },
+    {
         "source": "openphish",
         "data_type": "text",
         "url": "https://openphish.com/feed.txt",
